@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Muhammad Zahid">
+	<meta name="description" content="Swiss Alps resort with dining, spa, skiing, and guided hikes. Book your alpine escape.">
+	<title>Cascade Retreat</title>
+
+	<!-- external stylesheet css and favicon link -->
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-index">
+	<header class="site-header">
+		<div class="container">
+			<!-- h1 w/ resort name, link back to home page -->
+			<h1><a href="index.html">Cascade Retreat</a></h1>
+
+			<!-- nav menu: 3 items (home, accommodations as placeholder, contact) -->
+			<nav aria-label="Primary">
+				<ul>
+					<li><a href="index.html" aria-current="page">Home</a></li>
+					<li><a href="#">Accommodations</a></li> <!-- no page for this, just a placeholder -->
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<!-- hero img = swiss-valley.jpg per instructions -->
+			<figure class="hero">
+				<img src="img/swiss-valley.jpg" alt="Panoramic Swiss valley with chalets and peaks" width="1440" height="500">
+			</figure>
+		</div>
+	</header>
+
+	<main class="site-main index-main" id="main">
+		<div class="container">
+			<!-- kicker bar + 2 horizontal rules, wireframe look -->
+			<div class="kicker" aria-hidden="true"></div>
+			<hr class="rule"><hr class="rule">
+
+			<!-- h2 text from project sheet -->
+			<h2>Relax, Explore, Enjoy</h2>
+
+			<!-- intro paragraph - exactly from the doc -->
+			<p class="intro">
+				Nestled in a beautiful valley in the Swiss Alps, our resort is the perfect escape from the mundane. Dining options include an Italian restaurant, and ski-in bars on mountainside terraces. Other amenities consist of an upscale spa, hot tubs, a gym and a climbing wall. Breakfast is available.
+			</p>
+
+			<!-- first content section: swiss-chalet pic, heading, and long paragraph -->
+			<section class="feature">
+				<figure class="feature__media">
+				<img src="img/swiss-chalet.jpg" alt="Traditional Swiss chalet with wooden balconies and flower boxes" width="640" height="426">
+				</figure>
+				<div class="feature__body">
+					<h3 class="feature__title">Amenities and Options for Everyone</h3>
+					<p>
+						Escape from everyday life and spend a few warm and relaxing days in with us. Enjoy the refreshing mountain air. Discover the village and the surrounding mountains on foot or with our bikes. Visit our spa or ski runs during a winter visit, or take a guided hike during the warmer months. We offer something for everyone!
+					</p>
+				</div>
+			</section>
+
+			<!-- second content section: snowy-chalet, same idea -->
+			<section class="feature">
+				<figure class="feature__media">
+					<img src="img/snowy-chalet.jpg" alt="Snow-covered chalet near groomed ski slopes" width="640" height="426">
+				</figure>
+				<div class="feature__body">
+					<h3 class="feature__title">An Escape For Any Time of Year</h3>
+					<p>
+						Whether you prefer a snowy mountain escape or a peaceful summer getaway surrounded by verdant mountains and valleys, we have it all. You can hit the slopes and build a snowman in the winter, and you can head out for a hike, picnics, and swimming in the spring and summer. Escape the ordinary with us!
+					</p>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<!-- footer text exactly as in the instructions -->
+		<div class="container">
+			<p>Copyright ©2023 - Cascade Retreat</p>
+			<p>This site is for educational purposes only</p>
+		</div>
+	</footer>
+</body>
+</html>
